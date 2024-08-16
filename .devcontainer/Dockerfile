@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM public.ecr.aws/ubuntu/ubuntu:22.04_stable
 
 RUN apt-get update
 RUN apt-get install vim sudo curl -y
